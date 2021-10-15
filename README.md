@@ -1,5 +1,5 @@
 
---> Create a virtual environment :
+--> สร้าง env :
 ```bash
 # ถ้าใช้ระบบปฏิบบัติการ Windows
 virtualenv env
@@ -7,22 +7,23 @@ virtualenv env
 python -m venv env
 ```
 
---> Activate the virtual environment :
+--> Activate env :
 ```bash
 # ถ้าใช้ระบบปฏิบบัติการ Windows
 .\env\Scripts\activate
 # ถ้าใช้ระบบปฏิบบัติการ Linux or Mac
 source env/bin/activate
-```
+# Install requirements
 pip3 install -r requirements.txt
+```
 
 #
 
 ### รันแอป
 
---> To run the Notes App, we use :
+--> run the Notes App :
 ```bash
 python manage.py runserver
 ```
 
-> server will be started at http://127.0.0.1:8000/
+> server http://127.0.0.1:8000/
